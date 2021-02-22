@@ -1,5 +1,5 @@
 import { Router } from "express";
-import rpeasRouter from "./rpeas.routes2";
+import rpeasRouter from "./rpeas.routes";
 
 const routes = Router();
 
