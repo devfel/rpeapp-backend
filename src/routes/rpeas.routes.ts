@@ -1,17 +1,13 @@
 import { Router } from "express";
-import { v4 as uuid } from "uuid";
+import Rpea from "../models/Rpea";
 
 const rpeasRouter = Router();
-const rpeas = [];
+const rpeas: Rpea[] = [];
 
 rpeasRouter.post("/", (request, response) => {
   const { name } = request.body;
 
-  const rpea = {
-    id: uuid(),
-    name,
-  };
-
+  const rpea = new Rpea(name);
   rpeas.push(rpea);
   return response.json(rpea);
 });
