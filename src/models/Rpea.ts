@@ -5,9 +5,12 @@ class Rpea {
 
   name: string;
 
-  constructor(name: string) {
+  secondary_data: string;
+
+  constructor(name: string, secondary_data: string) {
     this.id = uuid();
     this.name = name;
+    this.secondary_data = secondary_data;
   }
 }
 
