@@ -7,10 +7,13 @@ class Rpea {
 
   secondary_data: string;
 
-  constructor(name: string, secondary_data: string) {
+  seasonal_calendar: string;
+
+  constructor(name: string, secondary_data: string, seasonal_calendar: string) {
     this.id = uuid();
     this.name = name;
     this.secondary_data = secondary_data;
+    this.seasonal_calendar = seasonal_calendar;
   }
 }
 
