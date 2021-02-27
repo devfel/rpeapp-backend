@@ -3,7 +3,7 @@
  <img  src="https://devfel.com/imgs/devfel-logo-01.JPG" alt="DevFel"></a>
 </p>
 
-<h1 align="center">RPEApp</h1>
+<h1 align="center">RPEApp - Rapid Participatory and Emancipatory Appraisal</h1>
 
 <div align="center">
 
