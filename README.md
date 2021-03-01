@@ -12,4 +12,5 @@
 
 </div>
 
-Initiating project. 
+RPEApp - Rapid Participatory and Emancipatory Appraisal
+Initiating project.
