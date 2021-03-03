@@ -12,5 +12,7 @@
 
 </div>
 
-RPEApp - Rapid Participatory and Emancipatory Appraisal
-Initiating project.
+<p align="center"> 
+This project uses node.js & react. </p>
+
+---
